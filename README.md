@@ -1,106 +1,37 @@
-\# AccuKnox User Management Automation
+AccuKnox User Management Automation
 
-
-
-\## 📌 Project Overview
-
+Project Overview
 This project automates the User Management module of OrangeHRM using Playwright with Python and Pytest using Page Object Model (POM).
 
+Tech Stack
+- Python
+- Playwright
+- Pytest
 
+Project Structure
+pages/ → Page Objects
+tests/ → Test Cases
+utils/ → Test Data
 
-\---
+Setup Instructions
 
-
-
-\## 🛠 Tech Stack
-
-\- Python
-
-\- Playwright
-
-\- Pytest
-
-
-
-\---
-
-
-
-\## 📁 Project Structure
-
-pages/ → Page Objects  
-
-tests/ → Test Cases  
-
-utils/ → Test Data  
-
-
-
-\---
-
-
-
-\## ⚙️ Setup Instructions
-
-
-
-\### 1. Install dependencies
-
+1. Install dependencies
 pip install playwright pytest
 
-
-
-\### 2. Install browsers
-
+2. Install browsers
 playwright install
 
+How to Run Tests
+pytest -v -s tests/test_user_management.py
 
+Features Automated
+- Login to application
+- Navigate to Admin module
+- Add new user
+- Search user
+- Edit user details
+- Delete user
 
-\---
-
-
-
-\## ▶️ How to Run Tests
-
-pytest -v -s tests/test\_user\_management.py
-
-
-
-\---
-
-
-
-\## 📊 Features Automated
-
-\- Login to application
-
-\- Navigate to Admin module
-
-\- Add new user
-
-\- Search user
-
-\- Edit user details
-
-\- Delete user
-
-
-
-\---
-
-
-
-\## 📌 Tool Version
-
-Playwright (latest version via pip)
-
-
-
-\---
-
-
-
-\## 👨‍💻 Author
-
-Kavya
+Tool Version
+Playwright (latest via pip)
 
